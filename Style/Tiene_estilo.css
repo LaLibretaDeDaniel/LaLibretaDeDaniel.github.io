@@ -8,4 +8,17 @@ h1, #presentación {
 	display:block; margin:0 auto;
 }
 
+body {background-image:linear-gradient(to right, cyan, #FF00FF);}
+
+body::-webkit-scrollbar {
+  width: 0.7em;
+  background:#FF00FF;
+}
+
+body::-webkit-scrollbar-thumb {
+  background:cyan; 
+  border-radius:40px;
+  height:30px;
+}
+
 h1 {text-align:center;}
