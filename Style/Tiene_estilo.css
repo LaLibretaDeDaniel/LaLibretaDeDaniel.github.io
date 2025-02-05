@@ -1,0 +1,11 @@
+/* Corresponde al documento index.html */
+
+h1, #presentación {
+	color:blue;
+}
+
+#presente {
+	display:block; margin:0 auto;
+}
+
+h1 {text-align:center;}
