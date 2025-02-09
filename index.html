@@ -8,14 +8,16 @@
 <link rel="stylesheet" type="text/css" href="./Style/Tiene_estilo.css"/>
 <style type="text/css">
 <!-- #ElCuerpo -->
-#ElCuerpo::-webkit-scrollbar-button, ::-webkit-scrollbar-button:vertical, ::-webkit-scrollbar-button:vertical {
-	display:none !important;
+#ElCuerpo::-webkit-scrollbar-button {
+	width: 0 !important;
+	height: 0 !important;
 }
 
-#ElCuerpo::-webkit-scrollbar {
-	background:#FF00FF !important;
-	width:0.7em !important; 
-}
+#ElCuerpo::-webkit-scrollbar-button:vertical {height: 0 !important;}
+
+#ElCuerpo::-webkit-scrollbar-button:horizontal {width: 0 !important;}
+
+#ElCuerpo::-webkit-scrollbar {width:0.7em !important; height: 0.7em !important;}
 
 #ElCuerpo::-webkit-scrollbar-track-piece {
 	background: #FF00FF !important;
