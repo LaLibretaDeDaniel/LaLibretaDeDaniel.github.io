@@ -5,9 +5,12 @@ h1, #presentación {
 }
 
 #presente {
-	display:block; margin:0 auto;
+	display:block; 
+	margin:0 auto;
+	max-width: 100%; 
+	height: auto;
 }
 
 body {background-image:linear-gradient(to right, cyan, #FF00FF);}
 
-h1 {text-align:right;}
+h1 {text-align:center;}
