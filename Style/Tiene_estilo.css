@@ -11,14 +11,14 @@ h1, #presentación {
 body {background-image:linear-gradient(to right, cyan, #FF00FF);}
 
 body::-webkit-scrollbar {
-  width: 0.7em;
-  background:#FF00FF;
+  width:0.7em !important;
+  background:#FF00FF !important;
 }
 
 body::-webkit-scrollbar-thumb {
-  background:cyan; 
-  border-radius:40px;
-  height:30px;
+  background:cyan !important; 
+  border-radius:40px !important;
+  height:30px !important;
 }
 
-h1 {text-align:center;}
+h1 {text-align:right;}
