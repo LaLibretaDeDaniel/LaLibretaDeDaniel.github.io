@@ -1,8 +1,10 @@
 /* Corresponde al documento index.html */
 
-h1, #presentación {
-	color:blue;
-}
+html {cursor:url(../Imagenes/Ukazatel.png), auto;}
+
+body {background-image:linear-gradient(to right, cyan, #FF00FF);}
+
+h1 {text-align:center;}
 
 #presente {
 	display:block; 
@@ -11,6 +13,6 @@ h1, #presentación {
 	height: auto;
 }
 
-body {background-image:linear-gradient(to right, cyan, #FF00FF);}
-
-h1 {text-align:center;}
+h1, #presentación {
+	color:blue;
+}
